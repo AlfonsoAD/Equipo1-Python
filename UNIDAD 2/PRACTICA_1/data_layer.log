@@ -1,0 +1,666 @@
+03:26:14 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:28:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:30:13 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:35:19 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:41:24 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:41:24 PM : DEBUG [conecction.py]:50 CONNECTION OBTAINED <connection object at 0x000001C29F411580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:41:24 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+03:41:24 PM : DEBUG [cursor_of_the_pool.py]:29 []
+03:41:24 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+03:41:24 PM : DEBUG [conecction.py]:56 CONECCTION RETURNED <connection object at 0x000001C29F411580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:44:27 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:44:54 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:45:07 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:45:22 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:47:46 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:47:46 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000021FEABD1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:47:46 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+03:47:46 PM : DEBUG [cursor_of_the_pool.py]:29 []
+03:47:46 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+03:47:46 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000021FEABD1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:50:08 PM:DEBUG[cursor_of_the_pool.py]:10START OF BLOCK WITH
+03:50:08 PM:DEBUG[conecction.py]:41CONNECTION OBTAINED <connection object at 0x00000287EC2C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:50:08 PM:DEBUG[cursor_of_the_pool.py]:27BLOQUE WITH
+03:50:08 PM:DEBUG[cursor_of_the_pool.py]:29[]
+03:50:08 PM:DEBUG[cursor_of_the_pool.py]:17EXIT IS EXECUTED
+03:50:08 PM:DEBUG[conecction.py]:47CONECCTION RETURNED <connection object at 0x00000287EC2C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+16560-DEBUG-START OF BLOCK WITH
+16560-DEBUG-CONNECTION OBTAINED <connection object at 0x000002BE769C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+16560-DEBUG-BLOQUE WITH
+16560-DEBUG-[]
+16560-DEBUG-EXIT IS EXECUTED
+16560-DEBUG-CONECCTION RETURNED <connection object at 0x000002BE769C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+9052-DEBUG-START OF BLOCK WITH
+9052-DEBUG-CONNECTION OBTAINED <connection object at 0x000001C449961580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+9052-DEBUG-BLOQUE WITH
+9052-DEBUG-[]
+9052-DEBUG-EXIT IS EXECUTED
+9052-DEBUG-CONECCTION RETURNED <connection object at 0x000001C449961580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+7556-DEBUG-START OF BLOCK WITH
+7556-DEBUG-CONNECTION OBTAINED <connection object at 0x000001A420621580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+7556-DEBUG-BLOQUE WITH
+7556-DEBUG-[]
+7556-DEBUG-EXIT IS EXECUTED
+7556-DEBUG-CONECCTION RETURNED <connection object at 0x000001A420621580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+DEBUG:root:START OF BLOCK WITH
+DEBUG:root:CONNECTION OBTAINED <connection object at 0x00000275B5221580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+DEBUG:root:BLOQUE WITH
+DEBUG:root:[]
+DEBUG:root:EXIT IS EXECUTED
+DEBUG:root:CONECCTION RETURNED <connection object at 0x00000275B5221580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:55:07 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:55:07 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000290667C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:55:07 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+03:55:07 PM : DEBUG [cursor_of_the_pool.py]:29 []
+03:55:07 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+03:55:07 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000290667C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:56:13 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+03:56:13 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000195DA111580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+03:56:13 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+03:56:13 PM : DEBUG [cursor_of_the_pool.py]:29 []
+03:56:13 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+03:56:13 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000195DA111580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+04:31:32 PM : DEBUG [employees.py]:72 <__main__.Employee object at 0x0000023642A857D0>
+04:32:07 PM : DEBUG [employees.py]:72 Juan
+04:44:37 PM : DEBUG [employees.py]:72 <__main__.Employee object at 0x0000017EF63857D0>
+04:45:36 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+04:45:36 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000256C2561580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+04:45:36 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+04:45:36 PM : DEBUG [cursor_of_the_pool.py]:29 []
+04:45:36 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+04:45:36 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000256C2561580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+04:48:31 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+04:48:31 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+04:48:31 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001E1EEC81580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+04:48:31 PM : DEBUG [cursor_of_the_pool.py]:27 BLOQUE WITH
+04:48:31 PM : DEBUG [cursor_of_the_pool.py]:29 []
+04:48:31 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+04:48:31 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001E1EEC81580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:09:20 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:09:20 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:09:20 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000274D75D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:09:20 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:09:20 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000274D75D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:10:18 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:10:18 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:10:18 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001EF9D145690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:10:18 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:10:18 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001EF9D145690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:10:18 PM : DEBUG [employeesDAO.py]:50 Empleados agregados: 1
+05:11:35 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:11:36 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:11:36 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001F9662C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:11:36 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:11:36 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001F9662C1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:12:13 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:12:13 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:12:13 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000010C4C921580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:12:13 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:12:13 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000010C4C921580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:13 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:13:13 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:13:13 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000017A58FE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:13 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:13:13 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000017A58FE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:13:42 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:13:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000263D87B1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:13:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000263D87B1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:59 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:13:59 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:13:59 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000293C98D1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:13:59 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:13:59 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000293C98D1580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:15:54 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:15:54 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:15:54 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000199C3FC5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:15:54 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:15:54 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000199C3FC5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:16:32 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:16:32 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:16:32 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001873FBE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:16:32 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:16:32 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001873FBE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:17:10 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:17:10 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:17:10 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001F9A6895580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:17:10 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:17:10 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001F9A6895580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:17:48 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:17:48 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:17:48 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000021C1CEE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:17:48 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:17:48 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000021C1CEE5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:18:28 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:18:28 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:18:28 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001C181465580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:18:28 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:18:28 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001C181465580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:18:51 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:18:51 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:18:51 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000023B7D3F5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:18:51 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:18:51 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000023B7D3F5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:19:13 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:19:13 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:19:13 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001CDEDF51690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:19:13 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:19:13 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001CDEDF51690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:19:33 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:19:33 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:19:33 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000027B86C11690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:19:33 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:19:33 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000027B86C11690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:20:29 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:20:29 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:20:29 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002A208AE1690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:20:29 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:20:29 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002A208AE1690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:20:41 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:20:41 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:20:41 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001E683521690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:20:41 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:20:41 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001E683521690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:20:41 PM : DEBUG [employeesDAO.py]:60 
+    NO.Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:21:10 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:21:10 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:21:10 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002C5CDCD1690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:21:10 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:21:10 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002C5CDCD1690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:21:10 PM : DEBUG [employeesDAO.py]:60 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:23:28 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:23:28 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:23:28 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001E4C00757A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:23:28 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:23:28 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001E4C00757A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:23:28 PM : DEBUG [employeesDAO.py]:49 Empleados agregados: 1
+05:23:28 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:23:28 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001E4C00757A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:23:28 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:23:28 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001E4C00757A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:23:28 PM : DEBUG [employeesDAO.py]:60 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:23:28 PM : DEBUG [employeesDAO.py]:60 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:27:11 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:27:11 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:27:11 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002100D8357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:27:11 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:27:11 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002100D8357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:34:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:34:42 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:34:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002DC3B3357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:34:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:34:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002DC3B3357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:34:42 PM : DEBUG [employeesDAO.py]:54 Cliente actualizado
+05:34:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:34:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002DC3B3357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:34:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:34:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002DC3B3357A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:34:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Contador Estatus:True
+    
+05:34:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:36:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:36:42 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:36:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000023C0AE257A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:36:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:36:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000023C0AE257A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:36:42 PM : DEBUG [employeesDAO.py]:49 Empleados agregados: 1
+05:36:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:36:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000023C0AE257A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:36:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:36:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000023C0AE257A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:36:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Contador Estatus:True
+    
+05:36:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:36:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:37:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:37:42 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:37:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000241885157A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:37:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:37:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000241885157A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:37:42 PM : DEBUG [employeesDAO.py]:49 Empleados agregados: 1
+05:37:42 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:37:42 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000241885157A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:37:42 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:37:42 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000241885157A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:37:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Contador Estatus:True
+    
+05:37:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:37:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:37:42 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:3434 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:38:33 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:38:33 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:38:33 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001A6590457A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:38:33 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:38:33 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001A6590457A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:38:33 PM : DEBUG [employeesDAO.py]:54 Cliente actualizado
+05:38:33 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:38:33 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001A6590457A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:38:33 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:38:33 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001A6590457A0; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:38:33 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Cajero Estatus:True
+    
+05:38:33 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:38:33 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:123 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:38:33 PM : DEBUG [employeesDAO.py]:61 
+    No. Empleado:3434 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:46:52 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:46:52 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:46:52 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000017106AA5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:46:52 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:46:52 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000017106AA5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:46:52 PM : DEBUG [employeesDAO.py]:59 Empleado eliminado
+05:46:52 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:46:52 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000017106AA5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:46:52 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:46:52 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000017106AA5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:46:52 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:112 Nombre: Juan
+    Apellido:Perez Puesto:Cajero Estatus:False
+    
+05:46:52 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:46:52 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:123 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:46:52 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:3434 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:48:02 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:48:02 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:48:02 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001AEBB3E5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:48:02 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:48:02 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001AEBB3E5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:48:02 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:48:02 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:123 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:48:02 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:3434 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:49:27 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:49:27 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+05:49:27 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000251D2F05690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:49:27 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:49:27 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000251D2F05690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:49:27 PM : DEBUG [employeesDAO.py]:59 Empleado eliminado
+05:49:27 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+05:49:27 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000251D2F05690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:49:27 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+05:49:27 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000251D2F05690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+05:49:27 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:123 Nombre: Jesus
+    Apellido:Alfonso Puesto:Ingeniero Estatus:True
+    
+05:49:27 PM : DEBUG [employeesDAO.py]:63 
+    No. Empleado:3434 Nombre: Pedro
+    Apellido:Perez Puesto:Ingeniero Estatus:True
+    
+05:58:38 PM : DEBUG [customers_suppliers.py]:71 
+    Nombre:Calle 1 Dirección: 1234567890
+    No. Telefono:True Estatus:2023-10-31 17:58:38.421588
+    
+05:59:06 PM : DEBUG [customers_suppliers.py]:70 
+    Nombre:Cliente Dirección: Calle 1
+    No. Telefono:1234567890 Estatus:True
+    
+06:07:23 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:07:23 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:07:23 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000029F37005690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:07:23 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:07:23 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000029F37005690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:10:11 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:10:11 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:10:11 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000015449745690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:10:11 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:10:11 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000015449745690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:11:10 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:11:10 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:11:10 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000019C7FE85690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:11:10 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:11:10 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000019C7FE85690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:11:10 PM : DEBUG [customerDAO.py]:49 Cliente agregado: 1
+06:12:05 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:05 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:12:05 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001BD23375690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:05 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:05 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001BD23375690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:05 PM : DEBUG [customerDAO.py]:49 Cliente agregado: 1
+06:12:05 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:05 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001BD23375690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:05 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:05 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001BD23375690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:05 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:05 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:22 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:22 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:12:22 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000214A9F25690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:22 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:22 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000214A9F25690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:22 PM : DEBUG [customerDAO.py]:49 Cliente agregado: 1
+06:12:22 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:22 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000214A9F25690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:22 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:22 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000214A9F25690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:22 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:22 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:22 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:32 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:32 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:12:32 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000019EA1355690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:32 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:33 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000019EA1355690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:33 PM : DEBUG [customerDAO.py]:49 Cliente agregado: 1
+06:12:33 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:33 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000019EA1355690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:33 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:33 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000019EA1355690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:33 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:33 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:33 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:33 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:55 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:12:55 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:12:55 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000001489A6F5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:55 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:12:55 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000001489A6F5580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:12:55 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:55 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:55 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:12:55 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:13:52 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:13:52 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:13:52 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000026CB74D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:13:52 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:13:52 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000026CB74D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:13:52 PM : DEBUG [customerDAO.py]:54 Cliente actualizado
+06:13:52 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:13:52 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000026CB74D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:13:52 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:13:52 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000026CB74D5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:13:52 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:13:52 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:13:52 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Sabritas Dirección: Calle Priv. Z
+    No. Telefono:1234567890 Estatus:True
+    
+06:13:52 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:14:26 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:14:26 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:14:26 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000027805715690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:14:26 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:14:26 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000027805715690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:14:26 PM : DEBUG [customerDAO.py]:54 Cliente actualizado
+06:14:26 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:14:26 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000027805715690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:14:26 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:14:26 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000027805715690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:14:26 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:14:26 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Gamesa Dirección: Calle Reforma
+    No. Telefono:1234567890 Estatus:True
+    
+06:14:26 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Sabritas Dirección: Calle Priv. Z
+    No. Telefono:1234567890 Estatus:True
+    
+06:14:26 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Pepsi Dirección: Calle Priv. X
+    No. Telefono:1234567890 Estatus:True
+    
+06:15:06 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:15:06 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:15:06 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000027E89915580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:15:06 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:15:06 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000027E89915580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:15:06 PM : DEBUG [customerDAO.py]:57 Empleado eliminado
+06:15:06 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:15:06 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000027E89915580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:15:06 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:15:06 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000027E89915580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:15:06 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Coca cola Dirección: Calle Priv. Gonzalez
+    No. Telefono:1234567890 Estatus:True
+    
+06:15:06 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Gamesa Dirección: Calle Reforma
+    No. Telefono:1234567890 Estatus:True
+    
+06:15:06 PM : DEBUG [customerDAO.py]:61 
+    Nombre:Sabritas Dirección: Calle Priv. Z
+    No. Telefono:1234567890 Estatus:True
+    
+06:21:06 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:21:06 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:21:06 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000012AB6F95690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:06 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:21:06 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000012AB6F95690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:06 PM : DEBUG [supplierDAO.py]:49 Proveedor agregado: 1
+06:21:06 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:21:06 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000012AB6F95690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:06 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:21:06 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000012AB6F95690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:06 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:21:50 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:21:50 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:21:50 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000014EC9955690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:50 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:21:50 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000014EC9955690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:50 PM : DEBUG [supplierDAO.py]:49 Proveedor agregado: 1
+06:21:50 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:21:50 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000014EC9955690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:50 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:21:50 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000014EC9955690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:21:50 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:21:50 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Del Valle Dirección: Calle Durango
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:03 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:22:03 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:22:03 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000021C9E165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:03 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:22:03 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000021C9E165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:03 PM : DEBUG [supplierDAO.py]:49 Proveedor agregado: 1
+06:22:03 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:22:03 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000021C9E165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:03 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:22:03 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000021C9E165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:03 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:03 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Del Valle Dirección: Calle Durango
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:03 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Marinela Dirección: Calle X
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:14 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:22:14 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:22:14 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002234A5A5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:14 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:22:14 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002234A5A5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:14 PM : DEBUG [supplierDAO.py]:49 Proveedor agregado: 1
+06:22:14 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:22:14 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x000002234A5A5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:14 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:22:14 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x000002234A5A5690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:22:14 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:14 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Del Valle Dirección: Calle Durango
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:14 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Marinela Dirección: Calle X
+    No. Telefono:1234567890 Estatus:True
+    
+06:22:14 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Bokados Dirección: Calle Z
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:09 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:23:09 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:23:09 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000212FB165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:09 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:23:09 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000212FB165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:09 PM : DEBUG [supplierDAO.py]:54 Proveedor actualizado
+06:23:09 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:23:09 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x00000212FB165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:09 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:23:09 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x00000212FB165690; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:09 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:09 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Del Valle Dirección: Calle Durango
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:09 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Marinela Dirección: Calle Reforma Acueducto
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:09 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Bokados Dirección: Calle Z
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:54 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:23:54 PM : DEBUG [conecction.py]:31 CREATION OF THE POOL <module 'psycopg2.pool' from 'C:\\Users\\andra\\.virtualenvs\\PRACTICA_1-SBpGhYxN\\Lib\\site-packages\\psycopg2\\pool.py'>
+06:23:54 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000018B12E65580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:54 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:23:54 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000018B12E65580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:54 PM : DEBUG [supplierDAO.py]:57 Proveedor eliminado
+06:23:54 PM : DEBUG [cursor_of_the_pool.py]:10 START OF BLOCK WITH
+06:23:54 PM : DEBUG [conecction.py]:41 CONNECTION OBTAINED <connection object at 0x0000018B12E65580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:54 PM : DEBUG [cursor_of_the_pool.py]:17 EXIT IS EXECUTED
+06:23:54 PM : DEBUG [conecction.py]:47 CONECCTION RETURNED <connection object at 0x0000018B12E65580; dsn: 'user=postgres password=xxx dbname=store host=localhost port=5432', closed: 0>
+06:23:54 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Jumex Dirección: Calle Priv. Mexico
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:54 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Del Valle Dirección: Calle Durango
+    No. Telefono:1234567890 Estatus:True
+    
+06:23:54 PM : DEBUG [supplierDAO.py]:61 
+    Nombre:Marinela Dirección: Calle Reforma Acueducto
+    No. Telefono:1234567890 Estatus:True
+    
