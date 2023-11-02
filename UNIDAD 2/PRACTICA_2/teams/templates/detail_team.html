@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% block content %}
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Name</h4>
+    </strong>
+    <p>{{team.name}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Technical director</h4>
+    </strong>
+    <p>{{team.technical_director}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Count players</h4>
+    </strong>
+    <p>{{team.count_players}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>League</h4>
+    </strong>
+    <p>{{team.league}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{league.create_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/teams">Return</a>
+{% endblock %}

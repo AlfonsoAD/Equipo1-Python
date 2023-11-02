@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="container">
+    <div class="row">
+        <div class="col-md">
+            <article class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://github.com/AlfonsoAD/Andrade/assets/90345024/65e3e8c0-23c0-43cb-82a3-07b5a7f0358e" height="250" alt="Card image leagues">
+                <div class="card-body">
+                    <h5 class="card-title">Leagues</h5>
+                    <p class="card-text">Manage your soccer leagues.</p>
+                    <a href="{% url "leagues:index" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md">
+            <article class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://github.com/AlfonsoAD/Andrade/assets/90345024/ded79c37-f4db-4def-a25c-0516b059c66f" height="250" alt="Card image teams">
+                <div class="card-body">
+                    <h5 class="card-title">Teams</h5>
+                    <p class="card-text">Manage your soccer teams.</p>
+                    <a href="{% url "teams:index" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md">
+            <article class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://github.com/AlfonsoAD/Andrade/assets/90345024/1bf3f987-1633-4fe6-98a1-585f7d6e9b2c" height="250" alt="Card image players">
+                <div class="card-body">
+                    <h5 class="card-title">Players</h5>
+                    <p class="card-text">Manage your players.</p>
+                    <a href="{% url "players:index" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md">
+            <article class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://github.com/AlfonsoAD/Andrade/assets/90345024/97eaccc4-c891-4915-a6ad-ea4b40ad6d83" height="250" alt="Card image players">
+                <div class="card-body">
+                    <h5 class="card-title">Directors</h5>
+                    <p class="card-text">Manage your technical directors.</p>
+                    <a href="{% url "directors:index" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+{% endblock content %}

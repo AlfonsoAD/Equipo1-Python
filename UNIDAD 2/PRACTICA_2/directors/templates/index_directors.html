@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Technical directors</h1>
+
+<section class="d-flex justify-content-end">
+  <a class="btn btn-success" href="{% url "directors:create" %}">
+    Add new director
+  </a>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Country</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for director in directors %}
+    <tr>
+      <td>{{ director.first_name }}</td>
+      <td>{{ director.last_name }}</td>
+      <td>{{ director.country }}</td>
+      <td>
+        <a class="btn btn-primary" href="{% url 'directors:detail' director.id %}">
+          View detail
+        </a>
+        <a class="btn btn-warning" href="{% url 'directors:edit' director.id %}">
+          Edit
+        </a>
+        <a class="btn btn-danger" href="{% url 'directors:delete' director.id %}">
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

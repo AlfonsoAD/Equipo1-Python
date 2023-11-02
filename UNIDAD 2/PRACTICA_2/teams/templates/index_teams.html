@@ -1,0 +1,43 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Teams</h1>
+
+<section class="d-flex justify-content-end">
+  <a class="btn btn-success" href="{% url "teams:create" %}">
+    Add new team
+  </a>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Count players</th>
+      <th>Technical director</th>
+      <th>League</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for team in teams %}
+    <tr>
+      <td>{{ team.name }}</td>
+      <td>{{ team.count_players }}</td>
+      <td>{{ team.technical_director }}</td>
+      <td>{{ team.league }}</td>
+      <td>
+        <a class="btn btn-primary" href="{% url 'teams:detail' team.id %}">
+          View detail
+        </a>
+        <a class="btn btn-warning" href="{% url 'teams:edit' team.id %}">
+          Edit
+        </a>
+        <a class="btn btn-danger" href="{% url 'teams:delete' team.id %}">
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Leagues</h1>
+
+<section class="d-flex justify-content-end">
+  <a class="btn btn-success" href="{% url "leagues:create" %}">
+    Add new league
+  </a>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Country</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for league in leagues %}
+    <tr>
+      <td>{{league.name}}</td>
+      <td><p>{{league.country}}</p></td>
+      <td>
+        <a class="btn btn-primary" href="{% url 'leagues:detail' league.id %}">
+          View detail
+        </a>
+        <a class="btn btn-warning" href="{% url 'leagues:edit' league.id %}">
+          Edit
+        </a>
+        <a class="btn btn-danger" href="{% url 'leagues:delete' league.id %}">
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

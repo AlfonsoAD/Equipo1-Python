@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block content %}
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Name</h4>
+    </strong>
+    <p>{{director.first_name}} {{director.last_name}} </p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Country</h4>
+    </strong>
+    <p>{{director.country}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{director.create_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/directors">Return</a>
+{% endblock %}

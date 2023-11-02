@@ -1,0 +1,47 @@
+{% extends 'base.html' %} {% block content %}
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Name</h4>
+    </strong>
+    <p>{{player.first_name}} {{player.last_name}} </p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Position</h4>
+    </strong>
+    <p>{{player.position}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Age</h4>
+    </strong>
+    <p>{{player.age}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Team</h4>
+    </strong>
+    <p>{{player.team}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Shirt number</h4>
+    </strong>
+    <p>{{player.shirt_number}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Country</h4>
+    </strong>
+    <p>{{player.country}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{league.create_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/players">Return</a>
+{% endblock %}

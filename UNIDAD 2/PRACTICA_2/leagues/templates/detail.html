@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block content %}
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Name</h4>
+    </strong>
+    <p>{{league.name}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Country</h4>
+    </strong>
+    <p>{{league.country}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{league.create_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/leagues">Return</a>
+{% endblock %}
