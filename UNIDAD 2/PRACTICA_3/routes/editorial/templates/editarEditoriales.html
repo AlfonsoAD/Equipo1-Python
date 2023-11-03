@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Editorial</title>
+</head>
+<body>
+    <h1>Editar Editorial</h1>
+
+    <form method="POST">
+        {{editorialForma.csrf_token}}
+        <p>
+            {{editorialForma.nombre.label}}<br/>
+            {{editorialForma.nombre(size=30)}}
+        </p>
+        <p>
+            {{editorialForma.pais.label}}<br/>
+            {{editorialForma.pais(size=30)}}
+        </p>
+        <p>
+            {{editorialForma.telefono.label}}<br/>
+            {{editorialForma.telefono(size=30)}}
+        </p>
+        <p>
+            {{editorialForma.enviar()}}
+        </p>
+    </form>
+</body>
+</html>

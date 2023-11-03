@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+</head>
+<body>
+    <h1>Listado de libros</h1>
+    <div>
+        <a href="{{url_for('applibro.agregar')}}">Agregar Libro</a>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Autor</th>
+                    <th>Editorial</th>
+                    <th>Año publicacion</th>
+                    <th>Genero</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for libro in libros%}
+                <tr>
+                    <td>{{libro.id}}</td>
+                    <td>{{libro.titulo}}</td>
+                    <td>{{libro.autor}}</td>
+                    <td>{{libro.editorial}}</td>
+                    <td>{{libro.year}}</td>
+                    <td>{{libro.genero}}</td>
+                    <td><a href="editar/{{libro.id}}">Editar</a></td>
+                    <td><a href="eliminar/{{libro.id}}">Eliminar</a></td>
+                    <td></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

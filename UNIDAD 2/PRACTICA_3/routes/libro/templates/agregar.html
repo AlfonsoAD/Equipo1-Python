@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Libro</title>
+</head>
+<body>
+    <h1>Agregar Libro</h1>
+
+    <form method="POST">
+        {{formaLibros.csrf_token}}
+        <p>
+            {{formaLibros.titulo.label}}<br/>
+            {{formaLibros.titulo(size=30)}}
+        </p>
+        <p>
+            <label for="autor">Selecciona un autor:</label><br/>
+            {{ formaLibros.autor(class="form-control") }}
+        </p>
+        <p>
+            <label for="editorial">Selecciona una editorial:</label><br/>
+            {{ formaLibros.editorial(class="form-control") }}
+        </p>
+        <p>
+            {{formaLibros.year.label}}<br/>
+            {{formaLibros.year(size=30)}}
+        </p>
+        <p>
+            <label for="genero">Selecciona una opción:</label><br/>
+            {{ formaLibros.genero(class="form-control") }}
+        </p>
+        <p>
+            {{formaLibros.enviar()}}
+        </p>
+    </form>
+</body>
+</html>

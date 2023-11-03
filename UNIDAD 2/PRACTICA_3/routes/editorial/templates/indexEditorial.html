@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+</head>
+<body>
+    <h1>Listado de Editorales</h1>
+    <div>
+        <a href="{{url_for('appeditorialesv.agregarEditoriales')}}">Agregar Editoriales</a>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Pais</th>
+                    <th>Telefono</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for editorial in editoriales%}
+                <tr>
+                    <td>{{editorial.id}}</td>
+                    <td>{{editorial.nombre}}</td>
+                    <td>{{editorial.pais}}</td>
+                    <td>{{editorial.telefono}}</td>
+                    <td><a href="/editarEditoriales/{{editorial.id}}">Editar</a></td>
+                    <td><a href="eliminarEditoriales/{{editorial.id}}">Eliminar</a></td>
+                    <td></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
