@@ -16,9 +16,10 @@ def agregarEditorial():
         db.session.commit()
         return jsonify({"status":200,"mensaje":"Editorial"})
     except Exception as ex:
-        return jsonify({"status":400,"mensaje":ex})
+        error_message = str(ex)  # Obtener el mensaje de error como una cadena
+        return jsonify({"status": 400, "mensaje": error_message})
     
-@appeditorial.route('/autor/editar',methods=['POST'])
+@appeditorial.route('/editorial/editar',methods=['POST'])
 def editarEditorial():
     try:
         json = request.get_json()

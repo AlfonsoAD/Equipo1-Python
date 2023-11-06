@@ -1,0 +1,15 @@
+11:23:59 AM : DEBUG [cursorDelPool.py]:10 Inicio bloque with
+11:23:59 AM : DEBUG [conexion.py]:38 Conexion Obtenida <connection object at 0x0000022545B5E570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:23:59 AM : DEBUG [cursorDelPool.py]:16 Se ejecuta exit
+11:23:59 AM : DEBUG [conexion.py]:44 Conexion regresada <connection object at 0x0000022545B5E570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:23:59 AM : DEBUG [animalDAO.py]:48 Animal agregadas 1
+11:27:03 AM : DEBUG [cursorDelPool.py]:10 Inicio bloque with
+11:27:03 AM : DEBUG [conexion.py]:38 Conexion Obtenida <connection object at 0x000002657EE4E570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:27:03 AM : DEBUG [cursorDelPool.py]:16 Se ejecuta exit
+11:27:03 AM : DEBUG [conexion.py]:44 Conexion regresada <connection object at 0x000002657EE4E570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:27:03 AM : DEBUG [animalDAO.py]:52 ACTUALIZACION EN  1
+11:28:12 AM : DEBUG [cursorDelPool.py]:10 Inicio bloque with
+11:28:12 AM : DEBUG [conexion.py]:38 Conexion Obtenida <connection object at 0x00000241EC9BE570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:28:12 AM : DEBUG [cursorDelPool.py]:16 Se ejecuta exit
+11:28:12 AM : DEBUG [conexion.py]:44 Conexion regresada <connection object at 0x00000241EC9BE570; dsn: 'user=postgres password=xxx dbname=examen_u2 host=localhost port=5432', closed: 0>
+11:28:12 AM : DEBUG [animalDAO.py]:56 ANIMAL ELIMINADO EN  1
