@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="container">
+    <div class="row">
+        <div class="col-md m-1">
+            <article class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Clinics</h5>
+                    <p class="card-text">Manage your clinics.</p>
+                    <a href="{% url "consultations:index_clinics" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md m-1">
+            <article class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Doctors</h5>
+                    <p class="card-text">Manage your doctors.</p>
+                    <a href="{% url "consultations:index_doctors" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md m-1">
+            <article class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Consultations</h5>
+                    <p class="card-text">Manage your Consultations.</p>
+                    <a href="{% url "consultations:index" %}"class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md m-1">
+            <article class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Animals</h5>
+                    <p class="card-text">Manage your Animals.</p>
+                    <a href="{% url "animals:index" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-md m-1">
+            <article class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Animal Details</h5>
+                    <p class="card-text">Manage your animal details.</p>
+                    <a href="{% url "animals:animalsdetails" %}" class="btn btn-primary">Go</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+{% endblock content %}

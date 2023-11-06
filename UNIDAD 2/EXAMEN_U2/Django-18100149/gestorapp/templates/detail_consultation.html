@@ -1,0 +1,36 @@
+{% extends 'layout.html' %} {% block content %}
+<h1>Consultation</h1>
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Doctor</h4>
+    </strong>
+    <p>{{consultation.doctor}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Animal</h4>
+    </strong>
+    <p>{{consultation.animal}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Service</h4>
+    </strong>
+    <p>{{consultation.service}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Price</h4>
+    </strong>
+    <p>{{consultation.price}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{consultation.create_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/consultations">Return</a>
+{% endblock %}

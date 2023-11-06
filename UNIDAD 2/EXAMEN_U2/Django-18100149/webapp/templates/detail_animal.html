@@ -1,0 +1,23 @@
+{% extends 'layout.html' %} {% block content %}
+<h1>Animal</h1>
+<article>
+  <div class="m-2">
+    <strong>
+      <h4>Name</h4>
+    </strong>
+    <p>{{animal.name}}</p>
+  </div>
+  <div class="m-2">
+    <strong>
+      <h4>Race</h4>
+    </strong>
+    <p>{{animal.race}}</p>
+  </div>
+    <strong>
+      <h4>Create date</h4>
+    </strong>
+    <p>{{animal.admission_date}}</p>
+  </div>
+</article>
+<a class="btn btn-primary" href="/animals">Return</a>
+{% endblock %}

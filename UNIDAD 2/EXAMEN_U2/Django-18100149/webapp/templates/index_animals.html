@@ -1,0 +1,41 @@
+{% extends 'layout.html' %} {% block content %}
+
+<h1>Animal</h1>
+
+<section class="d-flex justify-content-end">
+  <a class="btn btn-success" href="{% url "animals:create" %}">
+    Add new animal
+  </a>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Race</th>
+      <th>Admission date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for animal in animals %}
+    <tr>
+      <td>{{ animal.name }}</td>
+      <td>{{ animal.race }}</td>
+      <td>{{ animal.admission_date }}</td>
+      <td>
+        <a class="btn btn-primary" href="{% url 'animals:read' animal.id %}">
+          View detail
+        </a>
+        <a class="btn btn-warning" href="{% url 'animals:update' animal.id %}">
+          Edit
+        </a>
+        <a class="btn btn-danger" href="{% url 'animals:delete' animal.id %}">
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

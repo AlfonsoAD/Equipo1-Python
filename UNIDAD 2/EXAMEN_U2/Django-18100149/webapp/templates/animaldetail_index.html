@@ -1,0 +1,23 @@
+{% extends 'layout.html' %} {% block content %}
+
+<h1>Details Animal</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Animal</th>
+      <th>Weight</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for animal in animals %}
+    <tr>
+      <td>{{ animal.animal }}</td>
+      <td>{{ animal.weight }}</td>
+      <td>{{ animal.color }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

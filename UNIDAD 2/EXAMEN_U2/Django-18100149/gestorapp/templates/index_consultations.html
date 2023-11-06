@@ -1,0 +1,43 @@
+{% extends 'layout.html' %} {% block content %}
+
+<h1>Consultations</h1>
+
+<section class="d-flex justify-content-end">
+  <a class="btn btn-success" href="{% url "consultations:create" %}">
+    Add new consultation
+  </a>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Service</th>
+      <th>Price</th>
+      <th>Doctor</th>
+      <th>Animal</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for consultation in consultations %}
+    <tr>
+      <td>{{ consultation.service }}</td>
+      <td>{{ consultation.price }}</td>
+      <td>{{ consultation.doctor }}</td>
+      <td>{{ consultation.animal }}</td>
+      <td>
+        <a class="btn btn-primary" href="{% url 'consultations:read' consultation.id %}">
+          View detail
+        </a>
+        <a class="btn btn-warning" href="{% url 'consultations:update' consultation.id %}">
+          Edit
+        </a>
+        <a class="btn btn-danger" href="{% url 'consultations:delete' consultation.id %}">
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

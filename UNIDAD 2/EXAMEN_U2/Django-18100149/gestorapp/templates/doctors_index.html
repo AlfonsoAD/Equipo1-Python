@@ -1,0 +1,21 @@
+{% extends 'layout.html' %} {% block content %}
+
+<h1>Doctors</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Fullname</th>
+      <th>Phone number</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for doc in docs %}
+    <tr>
+      <td>{{ doc.fullname }}</td>
+      <td>{{ doc.phone_number }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
