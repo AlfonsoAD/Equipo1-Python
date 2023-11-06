@@ -1,0 +1,191 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 922, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: no existe la relación «paciente»
+LINE 2: FROM paciente
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\routes\paciente\pacientes.py", line 12, in inicio
+    pacientes = Paciente.query.all()
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2693, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2847, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2308, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2190, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1639, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2343, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 922, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) no existe la relación «paciente»
+LINE 2: FROM paciente
+             ^
+
+[SQL: SELECT paciente.id AS paciente_id, paciente.nombre AS paciente_nombre, paciente.tipo AS paciente_tipo, paciente.raza AS paciente_raza, paciente.alergias AS paciente_alergias 
+FROM paciente]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:38:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:38:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:43:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:43:44] "GET /agregar HTTP/1.1" 200 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\routes\paciente\pacientes.py", line 24, in agregar
+    return redirect(url_for('apppersona.inicio'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\helpers.py", line 222, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 1071, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\flask\app.py", line 1060, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\Desktop\11vo Semestre\Python\EQUIPO1\Equipo1-Python\UNIDAD 2\EXAMEN_U2\EJERCICIO_2_FLASK\.venv\Lib\site-packages\werkzeug\routing\map.py", line 919, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'apppersona.inicio'. Did you mean 'apppaciente.inicio' instead?
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:43:59] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:07] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:12] "GET /editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:15] "[32mPOST /editar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:47:56] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:48:44] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:48:46] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:48:48] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:52:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:52:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:52:20] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:32] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:47] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:57] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:53:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:55:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:55:31] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:58:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:58:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:58:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:59:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:00:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:00:41] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:01:15] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:02:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:04:22] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:06:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:06:39] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:06:41] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:04] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:13] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:07:36] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:08:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:08:46] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:09:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:09:22] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:09:27] "[32mPOST /editar/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 12:09:27] "GET /index HTTP/1.1" 200 -
